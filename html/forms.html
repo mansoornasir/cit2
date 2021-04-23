@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using HTML Forms</title>
+    <style>
+        .optg label {
+            background: black;
+            color: white;
+            font-size:large;
+            font-style: italic;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Using HTML Forms</h1>
+    <form action="save.php">
+        <label for="name">Name</label><input placeholder="please enter your name..." type="text" name="name" id="name" /><br/>
+        <label for="email">Email</label><input type="email" name="email" id="email" /><br/>
+        <label for="password">Password</label><input type="password" name="password" id="password" /><br/>
+        <label for="address">Address</label><textarea readonly cols="80" rows="10" name="address" id="address">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum debitis totam atque laborum, voluptatem libero distinctio natus laudantium, aliquid quisquam mollitia obcaecati. Vel, omnis odio repudiandae velit deserunt incidunt?
+        </textarea>
+        <button>Click</button>
+        <input type="submit" name="submit" value="Login" id="submit" /> <br/>
+        <label for="CS">CS</label><input type="checkbox" name="CS" value="Computer Science" id="CS"/>
+        <label for="SE">SE</label><input type="checkbox" name="SE" value="Software Engineering" id="SE"/>
+        <label for="IT">IT</label><input type="checkbox" name="IT" value="Information Technology" id="IT"/>
+        <label for="IoT">IoT</label><input checked type="checkbox" name="Internet of Things" value="IoT" id="IoT"/>
+        <br/><br/><br/>
+        
+        <label for="male">Male</label><input type='radio' name='gender' id="male" value="m" />
+        <label for="female">Female</label><input type='radio' name='gender' id="female" value="f" />
+        <label for="other">Other</label><input type="radio" name="gender" id="other" value="o"/>
+    
+        <select>
+            <option disabled selected>Select Option...</option>
+            <optgroup label="Technology" class="optg">
+                <option value="CS">Computer Science</option>
+                <option value="SE">Software Engineering</option>
+                <option value="IT">Information Technology</option>
+                <option value="IoT">Internet of Things</option>
+            </optgroup>
+            <optgroup label="Arts"  class="optg">
+                <option>Urdu</option>
+                <option>English</option>
+                <option>Political Science</option>
+                <option>Islamic Theology</option>
+            </optgroup>
+            
+        </select>
+    </form>
+  </body>
+</html>
