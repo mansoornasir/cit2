@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Using HTML Forms</title>
+    <link href ="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
     <h1>Using HTML Forms</h1>
-    <form action="save.php">
+    <form action="save.php"> <!-- This is a dummy form just to learn HTML forms -->
         <label for="name">Name</label><input placeholder="please enter your name..." type="text" name="name" id="name" /><br/>
         <label for="email">Email</label><input type="email" name="email" id="email" /><br/>
         <label for="password">Password</label><input type="password" name="password" id="password" /><br/>
@@ -25,7 +26,8 @@
         <label for="male">Male</label><input type='radio' name='gender' id="male" value="m" />
         <label for="female">Female</label><input type='radio' name='gender' id="female" value="f" />
         <label for="other">Other</label><input type="radio" name="gender" id="other" value="o"/>
-    
+        <br />
+        <hr />
         <select>
             <option disabled selected>Select Option...</option>
             <optgroup label="Technology" class="optg">
@@ -42,7 +44,11 @@
             </optgroup>
             
         </select>
+
     </form>
-    <p>alskjdf;lajdsf;ljsa;fdk</p>
+    <p>
+      Lorem ipsum dolor <cite>[1]</cite>, sit amet consectetur adipisicing elit. Voluptatem repellendus amet pariatur, accusantium nobis, laborum asperiores impedit alias recusandae excepturi, obcaecati voluptate! Rerum, placeat cupiditate veniam facere adipisci beatae aperiam!
+    </p>
+
   </body>
 </html>
