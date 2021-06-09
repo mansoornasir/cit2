@@ -1,0 +1,47 @@
+what is?
+types of css
+basics css
+syntax
+selectors
+    tag
+    class
+    id
+    universal
+    grouping (h1, h2, h3)
+    element (p.intro)
+comments
+padding
+margin
+borders
+
+Box Model
+
+catagories
+    fonts
+    colors
+    list
+    outline
+    text
+    display
+    float
+    Pseudo-classes
+
+advanced
+    border-radius
+    border-image
+    css gradiants
+    css units
+    shadow
+        text
+        box
+    css animations **
+    css pagination
+    css navigation bar
+    media queries
+    !important
+        p {
+            background-color: red !important;
+            }
+    flexbox
+    fontawesome (will be covered in bootstrap)
+scss (sass)
