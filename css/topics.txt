@@ -42,6 +42,7 @@ advanced
         p {
             background-color: red !important;
             }
+    .pagination a:hover:not(.active)
     flexbox
     fontawesome (will be covered in bootstrap)
 scss (sass)

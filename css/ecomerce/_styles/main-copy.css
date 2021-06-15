@@ -1,0 +1,157 @@
+/* primary color   = #1e81b0
+   secondary color = #76b5c5
+   
+   large font  = 25px
+   medium font = 20px
+   small font  =  12px
+   
+   large heading  = 50px
+   medium heading = 40px
+   small heading  = 30px
+   
+   font-family (heading) = Times New Roman, Times, Serif
+   font-family (text)    = Verdan, Tahoma, sans-serif
+   */
+
+div#container {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+div#header {
+    width: 100%;
+    height: 100px;  
+}
+div#logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+div#companyTitle {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+div#companyTitle h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #1e81b0;
+}
+div#companyTitle h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    font-weight: normal;
+    text-transform: lowercase;
+    color: #76b5c5;
+}
+div#search {
+    float: right;
+    margin-top: 70px;
+    margin-right: 10px;
+}
+div#navbar {
+    position: relative;
+    overflow: hidden;
+}
+div#navbar ul {
+    margin-top: 5px;
+}
+div#navbar ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+div#navbar ul li a {
+  color: #1e81b0;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+div#navbar ul li a:hover, div#navbar ul li a.active {
+    background: #1e81b0;
+    color: white;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+div#main {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+}
+div#sidenav {
+    /* border: 1px solid green; */
+    width: 25%;
+    height: 400px;
+    margin-top: 30px;
+    float: left;
+}
+div#sidenav ul li.categories-title {
+    background: #1e81b0;
+    font-size: larger;
+    color:white;
+    text-align: center;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+}
+div#sidenav ul li {
+    margin: 20px;
+}
+div#sidenav ul li a {
+    text-decoration:none;
+    padding: 10px;
+}
+div#sidenav ul li a.active, div#sidenav ul li a:hover {
+    width: 150px;
+    height: 15px;
+    background: #1e81b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+div#products {
+    width: 73%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+}
+div#banner {
+    width: 430px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    background: crimson;
+    border-radius: 10px;
+    text-align: center;
+}
+div#banner h1.lead {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    word-spacing: 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+div#banner p.note {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-bottom: 10px;
+    color: white;
+}
+div#banner button.find-more-btn {
+    margin-top: 50px;
+    font-size:large;
+    color: white;
+    background: #1e81b0;
+    border: none;
+    border-radius: 5px;
+}
+div#banner button.find-more-btn:hover {
+    cursor: hand;
+}
