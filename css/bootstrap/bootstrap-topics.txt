@@ -69,8 +69,6 @@ Buttons
     button > span.spinner-grow spinner-grow-sm
     .btn-group btn-group-lg (all buttons will be large)
     .btn-group-vertical
-    dropdown
-        button.btn btn-primary dropdown-toggle and data-toggle="dropdown" immedietly after div.dropdown-menu > a.dropdown-item
     
 Pagination
     ul.pagination               
