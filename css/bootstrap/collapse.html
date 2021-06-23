@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Collapse</title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<h1 class="display-4 text-center">Collapse</h1>
+<a href="#article" data-toggle="collapse">Read More...</a>
+<div id="article" class="collapse">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni asperiores explicabo voluptate fugit fugiat repellendus aliquid odit reiciendis rem quo est praesentium, quia officiis! Laboriosam natus asperiores nam accusantium quos.
+</div>
+
+<div id="accordian">
+    <div class="card">
+        <div class="card-header">
+            <a href="#menu1" data-toggle="collapse" class="card-link">Menu Item 1</a>
+        </div>
+        <div id="menu1" class="collapse" data-parent="#accordian">
+            <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ea adipisci beatae quisquam nam nobis officia eveniet! Animi dolore incidunt tempore quia sit reprehenderit debitis eius dolorum maxime ea. Deserunt!</p>
+                <button class="btn btn-success">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" href="#menu2" data-toggle="collapse">Menu Item 2</a>
+        </div>
+        <div id="menu2" data-parent="#accordian" class="collapse">
+            <div class="card-body"  >
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsa amet ducimus quae asperiores totam architecto optio, fugit repellat perferendis molestiae? Voluptatibus officiis minima possimus quis doloremque corporis ex sunt.</p>
+                <button class="btn btn-info">Read More...</button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" href="#menu3" data-toggle="collapse">Menu Item 3</a>
+        </div>
+        <div id="menu3" data-parent="#accordian" class="collapse">
+            <div class="card-body"  >
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsa amet ducimus quae asperiores totam architecto optio, fugit repellat perferendis molestiae? Voluptatibus officiis minima possimus quis doloremque corporis ex sunt.</p>
+                <button class="btn btn-info">Read More...</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
