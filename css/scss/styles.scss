@@ -1,0 +1,16 @@
+@import "partials/colors", "imports/home.scss", "imports/services.scss";
+@import "./partials/variables";
+
+div#demo {
+    width: $width;
+    height: $height;
+
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 4rem;
+
+    p.intro {
+        color: $secondary;
+    }
+}

@@ -1,0 +1,23 @@
+body {
+  background: #000000;
+}
+
+div {
+  color: #00b9f1;
+}
+
+div#demo {
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 4rem;
+}
+
+div#demo p.intro {
+  color: #00b9f1;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,UAAU,ECHJ,OAAO;CDIhB",
+    "sources": [
+        "home.scss",
+        "../partials/_colors.scss"
+    ],
+    "names": [],
+    "file": "home.css"
+}

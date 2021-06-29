@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,GAAG,CAAC;EACA,KAAK,ECFG,OAAgB;CDG3B",
+    "sources": [
+        "services.scss",
+        "../partials/_colors.scss"
+    ],
+    "names": [],
+    "file": "services.css"
+}
