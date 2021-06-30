@@ -1,16 +1,18 @@
-@import "partials/colors", "imports/home.scss", "imports/services.scss";
-@import "./partials/variables";
+// @mixin paraStyles($color, $size) {
+//     font-family: Verdana, Geneva, Tahoma, sans-serif;
+//     font-size: $size;
+//     color: $color;
+//     text-align: justify;
+// }
 
-div#demo {
-    width: $width;
-    height: $height;
+button.basic-btn {
+    border: 1px solid red;
+    font-size: large;
+    color: white;
+}
 
-    display: flex;
-    justify-content: space-around;
-    
-    margin: 4rem;
-
-    p.intro {
-        color: $secondary;
-    }
+button.fancy-btn {
+    @extend .basic-btn;
+    color: black;
+    border-radius: 20px;
 }
